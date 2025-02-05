@@ -52,6 +52,18 @@ Compile e inicie a simulação.
 
 Acompanhe as mensagens no monitor serial para observar a mudança dos estados do semáforo.
 
+▶️ Instruções de Uso
+
+Iniciar a simulação: Assim que a simulação começar, o semáforo iniciará no estado vermelho.
+
+Monitoramento via Serial: O monitor serial exibirá mensagens indicando qual cor do semáforo está ativa.
+
+Ciclo do semáforo: A cada 3 segundos, a cor do LED será alterada na seguinte sequência:
+
+Vermelho → Verde → Amarelo → Vermelho.
+
+Parar a simulação: Para encerrar a execução, basta interromper a simulação no Wokwi.
+
 📂 Estrutura do Projeto
 
 ├── atividadeu4c05atv1.c        # Código principal em C
