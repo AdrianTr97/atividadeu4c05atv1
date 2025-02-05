@@ -28,21 +28,13 @@ Resistores: 330Ω para cada LED
 
 Ligação dos LEDs ao Pico W
 
-LED
+LEDs:
 
-GPIO
+GPIO 11: Vermelho
 
-Vermelho
+GPIO 12:Amarelo
 
-11
-
-Amarelo
-
-12
-
-Verde
-
-13
+GPIO 13:Verde
 
 📝 Estrutura do Código
 
@@ -50,11 +42,11 @@ O funcionamento do semáforo está definido no arquivo atividadeu4c05atv1.c, que
 
 🚀 Como Rodar a Simulação no Wokwi
 
-Acesse o Wokwi e crie um novo projeto com o Raspberry Pi Pico W.
+Acesse o VSC em conjunto com a extensao Wokwi e Raspberry Pi Pico Project e crie um novo projeto com o Raspberry Pi Pico W.
 
 Carregue os arquivos do projeto (atividadeu4c05atv1.c, CMakeLists.txt e diagram.json).
 
-Edite o diagram.json para definir os LEDs e suas respectivas conexões.
+Verifique o diagram.json para definir os LEDs e suas respectivas conexões.
 
 Compile e inicie a simulação.
 
@@ -66,10 +58,7 @@ Acompanhe as mensagens no monitor serial para observar a mudança dos estados do
 ├── CMakeLists.txt   # Arquivo de configuração do CMake
 ├── diagram.json     # Definição dos componentes no Wokwi
 ├── README.md        # Documentação do projeto
-
-⚠️ Observações
-
-O projeto foi desenvolvido para rodar no Wokwi, mas também pode ser adaptado para execução em hardware físico.
+├──wokwi .toml       # Arquivo Toml
 
 👤 Autor
 
